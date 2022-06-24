@@ -74,12 +74,6 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#resume-card">
-                            <span class="icon la la-gear"></span>
-                            <span class="link">Resume</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="#works-card">
                             <span class="icon la la-eye"></span>
                             <span class="link">Portfolio</span>
@@ -125,7 +119,7 @@
 
                 <!-- Started Background -->
                 <div id="video-bg" class="slide"
-                    data-property="{videoURL:'https://www.youtube.com/watch?v=I92NxgeEoJk&t', containment:'#video-bg', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:1, addRaster:true, quality:'default'}">
+                data-property="{videoURL:'https://www.youtube.com/watch?v=YN-0Z4GXVx8',containment:'#video-bg',autoPlay:1, mute:true, showControls:false, stopMovieOnBlur:false, showYTLogo: false}">
                 </div>
 
                 <div class="centrize full-width">
@@ -152,11 +146,9 @@
             <div class="card-inner" id="about-card">
                 <div class="row card-container">
 
-                    <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
-
-                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
-                            style="background-image: url(images/profile.jpg);"></div>
-
+                    <div class="card-wrap col" data-simplebar>
+                        
+                        
       
                         <div class="content inner-top">
                             <div class="row">
@@ -164,15 +156,15 @@
                                     <div class="title-bg">About Me</div>
                                     <div class="text">
                                         <p>
-                                            <strong>Hello, I’m a Patrick</strong>, web-developer based on Paris. <br />
+                                            <strong>Hello, I’m a Jobir</strong>, web-developer based on Uzbekistan. <br />
                                             I have rich experience in web site design & building <br />
                                             and customization. Also I am good at <strong>html, css, <br />
-                                                wordpress, php, jquery, bootstrap.</strong>
+                                             php, jquery, bootstrap.</strong>
                                         </p>
                                     </div>
                                     <div class="circle-bts">
                                         <a href="#"><span><i class="icon la la-download"></i>Download
-                                                CV</span></a>
+                                                Resume</span></a>
                                         <a href="#"><i class="icon la la-github"></i></a>
                                         <a href="#"><i class="icon la la-stack-overflow"></i></a>
                                         <a href="#"><i class="icon la la-skype"></i></a>
@@ -180,6 +172,8 @@
                                 </div>
                             </div>
                         </div>
+
+                      
 
                         <div class="content services">
                             <div class="row">
@@ -205,57 +199,14 @@
                                     </div>
                                 </div>
 
-                                <!-- service item -->
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-                                    <div class="service-item card-box">
-                                        <div class="icon"><i class="la la-music"></i></div>
-                                        <div class="name">Music Writing</div>
-                                        <p>
-                                            Music copying, transcription, arranging and composition Services.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <!-- service item -->
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-                                    <div class="service-item card-box">
-                                        <div class="icon"><i class="la la-bullhorn"></i></div>
-                                        <div class="name">Advetising</div>
-                                        <p>
-                                            Advertising services include television, radio, print, mail and web.
-                                        </p>
-                                    </div>
-                                </div>
 
                                 <!-- service item -->
                                 <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
                                     <div class="service-item card-box">
                                         <div class="icon"><i class="la la-gamepad"></i></div>
-                                        <div class="name">Game Development</div>
+                                        <div class="name">Mobile Development</div>
                                         <p>
-                                            Developing memorable and unique mobile android, ios games.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <!-- service item -->
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-                                    <div class="service-item card-box">
-                                        <div class="icon"><i class="la la-area-chart"></i></div>
-                                        <div class="name">Analytics</div>
-                                        <p>
-                                            Basic, advanced, custom implementations and online media analysis.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <!-- service item -->
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-                                    <div class="service-item card-box">
-                                        <div class="icon"><i class="la la-camera-retro"></i></div>
-                                        <div class="name">Hosting</div>
-                                        <p>
-                                            Full-day or half-day photo shoots with all necessary equipment.
+                                            Developing memorable and unique mobile android, ios.
                                         </p>
                                     </div>
                                 </div>
@@ -264,79 +215,51 @@
 
                         </div>
 
-                        <!--
-       Price Tables
-      -->
-                        <div class="content pricing">
+                        <div class="content resume">
                             <div class="row">
-                                <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 
                                     <!-- title -->
-                                    <div class="title"><span>Pricing</span> Tables</div>
+                                    <div class="title"><span>My</span> Experience</div>
 
-                                </div>
-                            </div>
+                                    <!-- resume items -->
+                                    <div class="resume-items card-box">
 
-                            <!-- pricing items -->
-                            <div class="row pricing-items">
+                                        <!-- resume item -->
+                                        <div class="resume-item">
+                                            <div class="name">Web Development</div>
+                                            <div class="date">2013-Present <span>|</span> Facebook Inc.</div>
+                                            <p>
+                                                Collaborate with creative and development teams on the execution of
+                                                ideas.
+                                            </p>
+                                        </div>
 
-                                <!-- pricing item -->
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-                                    <div class="pricing-item card-box">
-                                        <div class="icon"><i class="la la-tachometer"></i></div>
-                                        <div class="name">Basic</div>
-                                        <div class="amount">
-                                            <span class="dollar">$</span>
-                                            <span class="number">22</span>
-                                            <span class="period">hour</span>
-                                        </div>
-                                        <div class="feature-list">
-                                            <ul>
-                                                <li>Web Development</li>
-                                                <li>Advetising</li>
-                                                <li>Game Development</li>
-                                                <li class="disable">Music Writing</li>
-                                                <li class="disable">Photography <strong>new</strong></li>
-                                            </ul>
-                                        </div>
-                                        <div class="lnks">
-                                            <a href="#" class="lnk">Buy <span>Basic</span></a>
-                                        </div>
                                     </div>
                                 </div>
-
-                                <!-- pricing item -->
                                 <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-                                    <div class="pricing-item card-box">
-                                        <div class="icon"><i class="la la-rocket"></i></div>
-                                        <div class="name">Pro</div>
-                                        <div class="amount">
-                                            <span class="dollar">$</span>
-                                            <span class="number">48</span>
-                                            <span class="period">hour</span>
+
+                                    <!-- title -->
+                                    <div class="title"><span>My</span> Education</div>
+
+                                    <!-- resume items -->
+                                    <div class="resume-items card-box">
+
+                                        <!-- resume item -->
+                                        <div class="resume-item">
+                                            <div class="name">Art University</div>
+                                            <div class="date">2014-2018 <span>|</span> Tashkent</div>
+                                            <p>
+                                                Tashkent Institute of Railway Transport Engineers,
+                                                Telecommunications
+                                            </p>
                                         </div>
-                                        <div class="feature-list">
-                                            <ul>
-                                                <li>Web Development</li>
-                                                <li>Advetising</li>
-                                                <li>Game Development</li>
-                                                <li>Music Writing</li>
-                                                <li>Photography <strong>new</strong></li>
-                                            </ul>
-                                        </div>
-                                        <div class="lnks">
-                                            <a href="#" class="lnk">Buy <span>Pro</span></a>
-                                        </div>
+
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
 
-                        <!--
-       Fun Fact
-      -->
                         <div class="content fuct">
                             <div class="row">
                                 <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
@@ -418,249 +341,8 @@
 
                         </div>
 
-                        <!--
-       Clients
-      -->
-                        <div class="content clients">
-                            <div class="row">
-                                <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                   
 
-                                    <!-- title -->
-                                    <div class="title"><span>Our</span> Clients</div>
-
-                                </div>
-                            </div>
-
-                            <!-- client items -->
-                            <div class="row client-items">
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_1.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_3.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_4.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_1.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_3.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_4.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_1.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- client item -->
-                                <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
-                                    <div class="client-item card-box">
-                                        <div class="image">
-                                            <a target="_blank" href="https://www.google.com">
-                                                <img src="images/clients/client_3.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <!--
-    Card - Resume
-   -->
-            <div class="card-inner" id="resume-card">
-                <div class="row card-container">
-
-                    <!--
-      Card Wrap
-     -->
-                    <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
-
-                        <!-- Resume Image -->
-                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
-                            style="background-image: url(images/profile2.jpg);"></div>
-
-                        <!--
-       Inner Top
-      -->
-                        <div class="content inner-top">
-                            <div class="row">
-                                <div class=" col col-m-12 col-t-12 col-d-12 col-d-lg-12">
-                                    <div class="title-bg">Resume</div>
-                                    <div class="text">
-                                        <p>
-                                            <strong>Hello, I’m a Patrick</strong>, web-developer based on Paris. <br />
-                                            I have rich experience in web site design & building <br />
-                                            and customization. Also I am good at <strong>html, css, <br />
-                                                wordpress, php, jquery, bootstrap.</strong>
-                                        </p>
-                                    </div>
-                                    <div class="circle-bts">
-                                        <a href="#"><span><i class="icon la la-download"></i>Download
-                                                CV</span></a>
-                                        <a href="#"><i class="icon la la-github"></i></a>
-                                        <a href="#"><i class="icon la la-stack-overflow"></i></a>
-                                        <a href="#"><i class="icon la la-skype"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--
-       Resume
-      -->
-                        <div class="content resume">
-                            <div class="row">
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-
-                                    <!-- title -->
-                                    <div class="title"><span>My</span> Experience</div>
-
-                                    <!-- resume items -->
-                                    <div class="resume-items card-box">
-
-                                        <!-- resume item -->
-                                        <div class="resume-item">
-                                            <div class="name">Web Development</div>
-                                            <div class="date">2013-Present <span>|</span> Facebook Inc.</div>
-                                            <p>
-                                                Collaborate with creative and development teams on the execution of
-                                                ideas.
-                                            </p>
-                                        </div>
-
-                                        <!-- resume item -->
-                                        <div class="resume-item">
-                                            <div class="name">Front-end Developer</div>
-                                            <div class="date">2011-2012 <span>|</span> Google Inc.</div>
-                                            <p>
-                                                Monitored technical aspects of the front-end delivery for several
-                                                projects.
-                                            </p>
-                                        </div>
-
-                                        <!-- resume item -->
-                                        <div class="resume-item">
-                                            <div class="name">Senior Developer</div>
-                                            <div class="date">2009-2010 <span>|</span> Abc Inc.</div>
-                                            <p>
-                                                Optimize website performance using latest technology.
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
-
-                                    <!-- title -->
-                                    <div class="title"><span>My</span> Education</div>
-
-                                    <!-- resume items -->
-                                    <div class="resume-items card-box">
-
-                                        <!-- resume item -->
-                                        <div class="resume-item">
-                                            <div class="name">Art University</div>
-                                            <div class="date">2014-2018 <span>|</span> Tashkent</div>
-                                            <p>
-                                                Tashkent Institute of Railway Transport Engineers,
-                                                Telecommunications
-                                            </p>
-                                        </div>
-
-                                        <!-- resume item -->
-                                        <div class="resume-item">
-                                            <div class="name">Programming Course</div>
-                                            <div class="date">2005-2006 <span>|</span> Paris</div>
-                                            <p>
-                                                Bachelor's Degree in Computer Science ABC Technical Institute,
-                                                Jefferson, Missouri
-                                            </p>
-                                        </div>
-
-                                        <!-- resume item -->
-                                        <div class="resume-item">
-                                            <div class="name">Web Design Course</div>
-                                            <div class="date">2004-2005 <span>|</span> London</div>
-                                            <p>
-                                                Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--
-       Skills
-      -->
                         <div class="content skills">
                             <div class="row">
                                 <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
@@ -708,27 +390,27 @@
                                     <div class="skills-list card-box">
                                         <ul>
                                             <li>
-                                                <div class="name">WordPress</div>
+                                                <div class="name">PHP / MYSQL</div>
                                                 <div class="progress">
                                                     <div class="percentage" style="width:90%;"></div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="name">PHP / MYSQL</div>
+                                                <div class="name">Vue Js</div>
                                                 <div class="progress">
-                                                    <div class="percentage" style="width:65%;"></div>
+                                                    <div class="percentage" style="width:90%;"></div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="name">HTML / CSS / JS</div>
                                                 <div class="progress">
-                                                    <div class="percentage" style="width:95%;"></div>
+                                                    <div class="percentage" style="width:70%;"></div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="name">Photoshop</div>
                                                 <div class="progress">
-                                                    <div class="percentage" style="width:85%;"></div>
+                                                    <div class="percentage" style="width:70%;"></div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -743,24 +425,17 @@
                 </div>
             </div>
 
-            <!--
-    Card - Works
-   -->
+
             <div class="card-inner" id="works-card">
                 <div class="row card-container">
 
-                    <!--
-      Card Wrap
-     -->
                     <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
 
-                        <!-- Work Image -->
+                     
                         <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
                             style="background-image: url(images/profile3.jpg);"></div>
 
-                        <!--
-       Inner Top
-      -->
+  
                         <div class="content inner-top">
                             <div class="row">
                                 <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
@@ -769,9 +444,6 @@
                             </div>
                         </div>
 
-                        <!--
-       Works
-      -->
                         <div class="content works">
                             <div class="row">
                                 <div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
@@ -1080,24 +752,16 @@
                 </div>
             </div>
 
-            <!--
-    Card - Blog
-   -->
             <div class="card-inner" id="blog-card">
                 <div class="row card-container">
 
-                    <!--
-      Card Wrap
-     -->
                     <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
 
-                        <!-- Blog Image -->
+                      
                         <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
                             style="background-image: url(images/profile4.jpg);"></div>
 
-                        <!--
-       Inner Top
-      -->
+
                         <div class="content inner-top">
                             <div class="row">
                                 <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
@@ -1106,9 +770,6 @@
                             </div>
                         </div>
 
-                        <!--
-       Blog
-      -->
                         <div class="content blog">
                             <div class="row">
                                 <div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
@@ -1198,9 +859,7 @@
                 </div>
             </div>
 
-            <!--
-    Card - Contacts
-   -->
+  
             <div class="card-inner" id="contacts-card">
                 <div class="row card-container">
 
@@ -1247,7 +906,7 @@
                                         <div class="icon"><i class="la la-map-marker"></i></div>
                                         <div class="name">Address</div>
                                         <p>
-                                            France, Paris.
+                                            Uzbekistan,Bukhara,Kagan.
                                         </p>
                                     </div>
                                 </div>
@@ -1258,7 +917,7 @@
                                         <div class="icon"><i class="la la-at"></i></div>
                                         <div class="name">Email</div>
                                         <p>
-                                            adlard@example.com
+                                            bbiznestg@gmail.com
                                         </p>
                                     </div>
                                 </div>
@@ -1269,7 +928,7 @@
                                         <div class="icon"><i class="la la-phone"></i></div>
                                         <div class="name">Phone</div>
                                         <p>
-                                            +123 654 78900
+                                            +998 97 722 66 56
                                         </p>
                                     </div>
                                 </div>
@@ -1329,7 +988,8 @@
                                             <div class="align-left">
                                                 <a href="#" class="button"
                                                     onclick="$('#cform').submit(); return false;">
-                                                    <span class="text">Send Message</span>
+                                                    <span></span>
+                                                    <span class="text" >Send Message</span>
                                                     <span class="icon"><i class="la la-arrow-right"></i></span>
                                                 </a>
                                             </div>
