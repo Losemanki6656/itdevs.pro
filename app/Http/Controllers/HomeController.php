@@ -25,11 +25,14 @@ class HomeController extends Controller
     {
         return view('home');
     }
-
+    public function photos()
+    {
+        return view('home');
+    }
     public function addphoto(Request $request)
     {
         $img = $request->photo;
-        $folderPath = "uploads/"; //path location
+        $folderPath = "uploads/";
         
         $image_parts = explode(";base64,", $img);
         $image_type_aux = explode("image/", $image_parts[0]);

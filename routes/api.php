@@ -31,5 +31,6 @@ Route::group([
     'middleware' => 'auth:api'
 ], function ($router) {
     Route::get('/user-profile', [UserController::class, 'userProfile']);
+    Route::get('/photos', [HomeController::class, 'photos']);
     Route::post('/addPhoto', [HomeController::class, 'addphoto']);
 });
